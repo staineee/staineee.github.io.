@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For Nastya.</title>
+    <meta name="description" content="A little place made for Nastya.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Playfair+Display:ital,wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="noise"></div>
+
+    <button class="music-button" id="musicButton" aria-label="Включить музыку">
+        <span class="music-dot"></span>
+        <span id="musicText">MUSIC OFF</span>
+    </button>
+
+    <audio id="music" loop>
+        <!-- Положи свою музыку в папку music и назови файл music.mp3 -->
+        <source src="music/music.mp3" type="audio/mpeg">
+    </audio>
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero">
+            <div class="top-line">
+                <span>22.06.2025</span>
+                <span>FOR NASTYA</span>
+            </div>
+
+            <div class="hero-photo reveal">
+                <img src="images/hero.jpg" alt="Настя">
+                <div class="photo-label">N / 01</div>
+            </div>
+
+            <div class="hero-title">
+                <p class="eyebrow reveal">A LITTLE WEBSITE MADE FOR YOU</p>
+
+                <h1 class="reveal">
+                    ABOUT<br>
+                    <em></em> YOU.
+                </h1>
+
+                <div class="hero-footer reveal">
+                    <p>Я просто хотел<br>сделать для тебя что-то своё.</p>
+                    <span>SCROLL ↓</span>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- INTRO -->
+        <section class="section intro">
+            <div class="section-meta">
+                <span>01 / 05</span>
+                <span>WHY THIS EXISTS</span>
+            </div>
+
+            <div class="intro-content">
+                <p class="eyebrow">NOT A GIFT. A PLACE.</p>
+
+                <h2 class="reveal-on-scroll">
+                    Потому что<br>
+                    некоторые люди<br>
+                    заслуживают<br>
+                    <em>своё место.</em>
+                </h2>
+
+                <p class="body-copy reveal-on-scroll">
+                    Поэтому я сделал эту маленькую страницу.
+                    Здесь нет какой-то особенной причины.
+                    Мне просто захотелось собрать здесь немного
+                    тебя, нас и тех вещей, которые я люблю в тебе.
+                </p>
+            </div>
+        </section>
+
+
+        <!-- THINGS I LOVE -->
+        <section class="section love">
+            <div class="section-meta">
+                <span>02 / 05</span>
+                <span>THINGS I LOVE</span>
+            </div>
+
+            <div class="love-list">
+
+                <div class="love-item reveal-on-scroll">
+                    <span>01</span>
+                    <h3>твой смех</h3>
+                    <p>особенно тот, который невозможно остановить.</p>
+                </div>
+
+                <div class="love-item reveal-on-scroll">
+                    <span>02</span>
+                    <h3>твои волосы</h3>
+                    <p>я могу смотреть на них дольше, чем нужно.</p>
+                </div>
+
+                <div class="love-item reveal-on-scroll">
+                    <span>03</span>
+                    <h3>твой запах</h3>
+                    <p>одна из тех вещей, которые почему-то остаются в памяти.</p>
+                </div>
+
+                <div class="love-item reveal-on-scroll">
+                    <span>04</span>
+                    <h3>твой юмор</h3>
+                    <p>даже когда ты шутишь совсем не смешно. иногда.</p>
+                </div>
+
+                <div class="love-item reveal-on-scroll">
+                    <span>05</span>
+                    <h3>твои глаза</h3>
+                    <p>здесь, кажется, вообще нечего объяснять.</p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- PHOTO ARCHIVE -->
+        <section class="section archive">
+            <div class="section-meta">
+                <span>03 / 05</span>
+                <span>OUR ARCHIVE</span>
+            </div>
+
+            <div class="archive-intro reveal-on-scroll">
+                <p class="eyebrow">MEMORIES / 2025—2026</p>
+                <h2>some moments<br><em>worth keeping.</em></h2>
+            </div>
+
+            <div class="gallery">
+
+                <figure class="gallery-item large reveal-on-scroll">
+                    <img src="images/photo1.jpg" alt="Наш момент">
+                    <figcaption><span>01</span><span>one of my favourites</span></figcaption>
+                </figure>
+
+                <figure class="gallery-item small reveal-on-scroll">
+                    <img src="images/photo2.jpg" alt="Наш момент">
+                    <figcaption><span>02</span><span>just us</span></figcaption>
+                </figure>
+
+                <figure class="gallery-item medium reveal-on-scroll">
+                    <img src="images/photo3.jpg" alt="Наш момент">
+                    <figcaption><span>03</span><span>remember this?</span></figcaption>
+                </figure>
+
+                <figure class="gallery-item tall reveal-on-scroll">
+                    <img src="images/photo4.jpg" alt="Наш момент">
+                    <figcaption><span>04</span><span>still love this</span></figcaption>
+                </figure>
+
+                <figure class="gallery-item wide reveal-on-scroll">
+                    <img src="images/photo5.jpg" alt="Наш момент">
+                    <figcaption><span>05</span><span>duo players</span></figcaption>
+                </figure>
+
+            </div>
+        </section>
+
+
+        <!-- DATE -->
+        <section class="date-section">
+            <div class="date-big reveal-on-scroll">22.06</div>
+            <p class="date-year reveal-on-scroll">2025 — THE DAY IT STARTED</p>
+            <p class="date-copy reveal-on-scroll">
+                С этого дня в моей жизни<br>
+                стало на одного очень важного<br>
+                человека больше.
+            </p>
+        </section>
+
+
+        <!-- LETTER -->
+        <section class="section letter">
+            <div class="section-meta">
+                <span>04 / 05</span>
+                <span>A LETTER</span>
+            </div>
+
+            <div class="letter-content">
+                <p class="eyebrow">FOR NASTYA</p>
+
+                <h2 class="reveal-on-scroll">
+                    Если однажды<br>
+                    ты забудешь...
+                </h2>
+
+                <div class="letter-text reveal-on-scroll">
+                    <p>
+                        ...просто открой эту страницу ещё раз.
+                    </p>
+
+                    <p>
+                        Я не умею всегда правильно говорить
+                        о своих чувствах. Иногда проще сделать,
+                        чем объяснить словами.
+                    </p>
+
+                    <p>
+                        Поэтому здесь я просто оставлю всё,
+                        что хочу, чтобы ты знала.
+                    </p>
+
+                    <p>
+                        Я люблю твой смех, твои волосы,
+                        твой запах, твой юмор и твои глаза.
+                        Но больше всего я люблю то,
+                        какой становится моя жизнь,
+                        когда в ней есть ты.
+                    </p>
+
+                    <p>
+                        Спасибо за всё, что мы уже прожили.
+                        И за всё, что ещё только предстоит.
+                    </p>
+
+                    <p class="signature">
+                        Твой Д.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- FINAL -->
+        <section class="final">
+            <div class="final-photo reveal-on-scroll">
+                <img src="images/final.jpg" alt="Настя">
+            </div>
+
+            <div class="final-content">
+                <p class="eyebrow">05 / 05 — FIN.</p>
+
+                <h2 class="reveal-on-scroll">
+                    Лав.<br>
+                    <em>YOU.</em><br>
+                    ❤.
+                </h2>
+
+                <p class="final-small reveal-on-scroll">
+                    made for Nastya<br>
+                    22.06.2025 — ∞
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
